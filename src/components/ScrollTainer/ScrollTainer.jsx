@@ -1,24 +1,34 @@
 import { useEffect } from "react";
 import './ScrollTainer.css';
-import camero from '../../images/cameroYellow.jpg'
-import lambo from '../../images/lamboOrange.jpg'
-import m4 from '../../images/m4Black.jpg'
-import merc from '../../images/mercSLR.jpg'
-import mustang from '../../images/mustangWhite.jpg'
-import r8 from '../../images/r8Red.jpg'
+import cameroRed from '../../images/cameroRed.jpg'
+import cameroYellow from '../../images/cameroYellow.jpg'
+import cobraGray from '../../images/cobraGray.jpg'
+import lamboOrange from '../../images/lamboOrange.jpg'
+import lamboWhite from '../../images/lamboWhite.jpg'
+import m4Black from '../../images/m4Black.jpg'
+import mercSLR from '../../images/mercSLR.jpg'
+import mustangWhite from '../../images/mustangWhite.jpg'
+import r8Fall from '../../images/r8Fall.jpg'
+import r8Track from '../../images/r8Track.jpg'
+import r8Red from '../../images/r8Red.jpg'
 
 const imageArray = [
-  camero,
-  lambo,
-  m4,
-  merc,
-  mustang,
-  r8
+  cameroRed,
+  cameroYellow,
+  cobraGray,
+  lamboOrange,
+  lamboWhite,
+  m4Black,
+  mercSLR,
+  mustangWhite,
+  r8Fall,
+  r8Red,
+  r8Track,
 ]
 
-const renderImages = () => {
+const renderImages = ({height}) => {
   const images = imageArray.map((image, i) => {
-    return <img src={image} alt='ScrollTainer demo' height={200} key={i} />
+    return <img src={image} alt='ScrollTainer demo' height={height} key={i} />
   })
   return (
     <>
@@ -27,7 +37,7 @@ const renderImages = () => {
   )
 }
 
-export default function ScrollTainer() {
+export default function ScrollTainer({height}) {
   useEffect(() => {
     const scrollTainer = document.getElementById('scrollTainer');
     const scrollTainerWidth = scrollTainer.scrollWidth;
@@ -52,7 +62,7 @@ export default function ScrollTainer() {
 
   return (
     <div id='scrollTainer'>
-      {renderImages()}
+      {renderImages({height})}
     </div>
   );
 };
