@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { motion } from 'framer-motion';
 import './ScrollTainer.css';
 import cameroRed from '../../images/cameroRed.jpg'
 import cameroYellow from '../../images/cameroYellow.jpg'
@@ -61,8 +62,16 @@ export default function ScrollTainer({height}) {
   }, [])
 
   return (
-    <div id='scrollTainer'>
+    <motion.div 
+      id='scrollTainer'
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      transition={{ 
+        delay: 0.675,
+        duration: 0.5 
+      }}
+    >
       {renderImages({height})}
-    </div>
+    </motion.div>
   );
 };

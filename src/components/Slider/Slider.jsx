@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import './Slider.css';
 
 const inputStyle = {
@@ -16,7 +17,14 @@ const labelStyle = {
 
 export default function Slider({height, setHeight}) {
   return (
-    <div>
+    <motion.div
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      transition={{ 
+        delay: 0.5,
+        duration: 0.5 
+      }}
+    >
       <label htmlFor='height' style={labelStyle}>ScrollTainer Height: </label>
       <input
         id='opacity'
@@ -29,6 +37,6 @@ export default function Slider({height, setHeight}) {
         style={inputStyle}
       >
       </input>
-    </div>
+    </motion.div>
   )
 }

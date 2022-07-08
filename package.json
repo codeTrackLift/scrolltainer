@@ -4,6 +4,7 @@
   "homepage": "https://codetracklift.github.io/scrolltainer",
   "private": true,
   "dependencies": {
+    "framer-motion": "^6.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
