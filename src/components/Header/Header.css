@@ -1,0 +1,11 @@
+#top {
+  background-color: black;
+  margin: -1.25rem 0 0 -0.5rem;
+  width: 100vw;
+}
+
+header>div>h2 {
+  padding: 0.5rem;
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+}

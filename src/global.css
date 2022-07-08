@@ -1,0 +1,16 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: transparent;
+  overflow-x: hidden;
+  margin: 0 auto;
+  max-width: 1400px;
+  height: 100%;
+  width: 100%;
+}
+
+h1, h3 {
+  font-family: Arial;
+}

@@ -1,0 +1,24 @@
+#scrollTainer {
+  background-color: transparent;
+  margin: 2rem 0 2rem -0.5rem;
+  overflow-x: scroll;
+  padding: 2rem 0;
+  width: 100vw;
+  white-space: nowrap;
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#scrollTainer::-webkit-scrollbar {
+  display: none; 
+}
+
+#scrollTainer>img {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
