@@ -1,10 +1,19 @@
 {
   "files": {
-    "main.js": "/scrolltainer/static/js/main.36db18ee.js",
+    "main.css": "/scrolltainer/static/css/main.bca95bf3.css",
+    "main.js": "/scrolltainer/static/js/main.d0525034.js",
+    "static/media/lamboOrange.jpg": "/scrolltainer/static/media/lamboOrange.752a4f35fbffa76f2bc6.jpg",
+    "static/media/m4Black.jpg": "/scrolltainer/static/media/m4Black.c02cd24ff0066163ac2a.jpg",
+    "static/media/mercSLR.jpg": "/scrolltainer/static/media/mercSLR.6897b4feb8b5b9f4e16f.jpg",
+    "static/media/cameroYellow.jpg": "/scrolltainer/static/media/cameroYellow.51fb32f810bebf77cda7.jpg",
+    "static/media/mustangWhite.jpg": "/scrolltainer/static/media/mustangWhite.3fd0b3f059cf2df0c038.jpg",
+    "static/media/r8Red.jpg": "/scrolltainer/static/media/r8Red.87fc86ab16b925dfbc31.jpg",
     "index.html": "/scrolltainer/index.html",
-    "main.36db18ee.js.map": "/scrolltainer/static/js/main.36db18ee.js.map"
+    "main.bca95bf3.css.map": "/scrolltainer/static/css/main.bca95bf3.css.map",
+    "main.d0525034.js.map": "/scrolltainer/static/js/main.d0525034.js.map"
   },
   "entrypoints": [
-    "static/js/main.36db18ee.js"
+    "static/css/main.bca95bf3.css",
+    "static/js/main.d0525034.js"
   ]
 }
