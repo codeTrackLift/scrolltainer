@@ -7,6 +7,26 @@ import merc from '../../images/mercSLR.jpg'
 import mustang from '../../images/mustangWhite.jpg'
 import r8 from '../../images/r8Red.jpg'
 
+const imageArray = [
+  camero,
+  lambo,
+  m4,
+  merc,
+  mustang,
+  r8
+]
+
+const renderImages = () => {
+  const images = imageArray.map((image, i) => {
+    return <img src={image} alt='ScrollTainer demo' height={200} key={i} />
+  })
+  return (
+    <>
+      {images}
+    </>
+  )
+}
+
 export default function ScrollTainer() {
   useEffect(() => {
     const scrollTainer = document.getElementById('scrollTainer');
@@ -32,18 +52,7 @@ export default function ScrollTainer() {
 
   return (
     <div id='scrollTainer'>
-      <img height={200} src={camero} alt='Demo pic for ScrollTainer' />
-      <img height={200} src={lambo} alt='Demo pic for ScrollTainer' />
-      <img height={200} src={m4} alt='Demo pic for ScrollTainer' />
-      <img height={200} src={merc} alt='Demo pic for ScrollTainer' />
-      <img height={200} src={mustang} alt='Demo pic for ScrollTainer' />
-      <img height={200} src={r8} alt='Demo pic for ScrollTainer' />
-      <img height={200} src={camero} alt='Demo pic for ScrollTainer' />
-      <img height={200} src={lambo} alt='Demo pic for ScrollTainer' />
-      <img height={200} src={m4} alt='Demo pic for ScrollTainer' />
-      <img height={200} src={merc} alt='Demo pic for ScrollTainer' />
-      <img height={200} src={mustang} alt='Demo pic for ScrollTainer' />
-      <img height={200} src={r8} alt='Demo pic for ScrollTainer' />
+      {renderImages()}
     </div>
   );
 };
