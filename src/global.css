@@ -22,6 +22,15 @@ a {
   color: white !important;
   padding: 0.5rem 1rem;
   transition: all 0.25s ease-out;
+  text-decoration: none;
+  margin-left: 40%;
+  font-family: Arial;
+}
+
+@media (max-width: 575px) {
+  a {
+    margin-left: 0;
+  }
 }
 
 a:hover {

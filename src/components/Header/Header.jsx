@@ -43,7 +43,6 @@ export default function Header() {
             href='https://github.com/codeTrackLift/scrolltainer/tree/main/src/components/ScrollTainer' 
             target="_blank" 
             rel='noreferrer'
-            style={{textDecoration:'none',marginLeft:'40%',fontFamily:'Arial',color:'black'}}
             animate={{ opacity: 1 }}
             initial={{ opacity: 0 }}
             transition={{ 
