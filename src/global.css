@@ -1,12 +1,12 @@
 *, *::before, *::after {
   box-sizing: border-box;
+  max-width: 1000px;
 }
 
 html {
   background-color: transparent;
   overflow-x: hidden;
   margin: 0 auto;
-  max-width: 1400px;
   height: 100%;
   width: 100%;
 }

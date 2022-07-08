@@ -32,12 +32,18 @@ export default function ScrollTainer() {
 
   return (
     <div id='scrollTainer'>
-      <img width={330} height={200} src={camero} alt='Demo pic for ScrollTainer' />
-      <img width={330} height={200} src={lambo} alt='Demo pic for ScrollTainer' />
-      <img width={330} height={200} src={m4} alt='Demo pic for ScrollTainer' />
-      <img width={330} height={200} src={merc} alt='Demo pic for ScrollTainer' />
-      <img width={330} height={200} src={mustang} alt='Demo pic for ScrollTainer' />
-      <img width={330} height={200} src={r8} alt='Demo pic for ScrollTainer' />
+      <img height={200} src={camero} alt='Demo pic for ScrollTainer' />
+      <img height={200} src={lambo} alt='Demo pic for ScrollTainer' />
+      <img height={200} src={m4} alt='Demo pic for ScrollTainer' />
+      <img height={200} src={merc} alt='Demo pic for ScrollTainer' />
+      <img height={200} src={mustang} alt='Demo pic for ScrollTainer' />
+      <img height={200} src={r8} alt='Demo pic for ScrollTainer' />
+      <img height={200} src={camero} alt='Demo pic for ScrollTainer' />
+      <img height={200} src={lambo} alt='Demo pic for ScrollTainer' />
+      <img height={200} src={m4} alt='Demo pic for ScrollTainer' />
+      <img height={200} src={merc} alt='Demo pic for ScrollTainer' />
+      <img height={200} src={mustang} alt='Demo pic for ScrollTainer' />
+      <img height={200} src={r8} alt='Demo pic for ScrollTainer' />
     </div>
   );
 };

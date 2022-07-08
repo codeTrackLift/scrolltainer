@@ -9,3 +9,11 @@ header>div>h2 {
   color: white;
   font-family:'Times New Roman', Times, serif;
 }
+
+section {
+  display: flex;
+}
+
+section>img {
+  margin: auto;
+}
