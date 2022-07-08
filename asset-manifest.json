@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/scrolltainer/static/css/main.ffb327a5.css",
-    "main.js": "/scrolltainer/static/js/main.066dcffb.js",
+    "main.js": "/scrolltainer/static/js/main.06327f87.js",
     "static/media/lamboGoldVert.jpg": "/scrolltainer/static/media/lamboGoldVert.b956912a060daa011331.jpg",
     "static/media/m2BlueVert.jpg": "/scrolltainer/static/media/m2BlueVert.c104fcf7c884316ad4e5.jpg",
     "static/media/lamboOrange.jpg": "/scrolltainer/static/media/lamboOrange.752a4f35fbffa76f2bc6.jpg",
@@ -12,10 +12,10 @@
     "static/media/r8Red.jpg": "/scrolltainer/static/media/r8Red.87fc86ab16b925dfbc31.jpg",
     "index.html": "/scrolltainer/index.html",
     "main.ffb327a5.css.map": "/scrolltainer/static/css/main.ffb327a5.css.map",
-    "main.066dcffb.js.map": "/scrolltainer/static/js/main.066dcffb.js.map"
+    "main.06327f87.js.map": "/scrolltainer/static/js/main.06327f87.js.map"
   },
   "entrypoints": [
     "static/css/main.ffb327a5.css",
-    "static/js/main.066dcffb.js"
+    "static/js/main.06327f87.js"
   ]
 }
