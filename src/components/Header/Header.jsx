@@ -20,7 +20,7 @@ export default function Header() {
             href='https://github.com/codeTrackLift/scrolltainer/tree/main/src/components/ScrollTainer' 
             target="_blank" 
             rel='noreferrer'
-            style={{textDecoration:'none',marginLeft:'40%'}}
+            style={{textDecoration:'none',marginLeft:'40%',fontFamily:'Arial',color:'black'}}
           >View Code</a>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio magni id quisquam alias? Eos doloribus quis dolorum! Nemo, corporis? Quo praesentium soluta corrupti. Ab, nesciunt. Esse rem architecto eum ab.
