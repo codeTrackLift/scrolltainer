@@ -37,6 +37,11 @@ const renderImages = ({height}) => {
   )
 }
 
+const isElementInViewport = (e) => {
+  const rect = e.getBoundingClientRect();
+  return rect.right > 0;
+}
+
 export default function ScrollTainer({height}) {
   useEffect(() => {
     const scrollTainer = document.getElementById('scrollTainer');
@@ -53,11 +58,6 @@ export default function ScrollTainer({height}) {
         } 
     };
     setInterval(scroll, 15);
-    
-    function isElementInViewport(el) {
-        const rect = el.getBoundingClientRect();
-        return rect.right > 0;
-    }
   }, [])
 
   return (
