@@ -66,7 +66,7 @@ export default function Header() {
           alt='ScrollTainer Demo'
           style={{marginLeft:'1rem'}}
           animate={{ opacity: 1, x: 0 }}
-          initial={{ x: 1000 }}
+          initial={{ opacity: 0, x: 1000 }}
           transition={{ 
             delay: 0.375,
             duration: 0.5 

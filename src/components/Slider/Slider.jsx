@@ -18,8 +18,8 @@ const labelStyle = {
 export default function Slider({height, setHeight}) {
   return (
     <motion.div
-    animate={{ x: 0 }}
-    initial={{ x: -1000 }}
+    animate={{ opacity: 1, x: 0 }}
+    initial={{ opacity: 0, x: -1000 }}
       transition={{ 
         delay: 0.75,
         duration: 0.5 

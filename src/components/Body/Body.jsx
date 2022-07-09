@@ -22,7 +22,7 @@ export default function Body() {
           alt='ScrollTainer Demo'
           style={{marginRight:'1rem'}}
           animate={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 1000 }}
+          initial={{ opacity: 0, x: -1000 }}
           transition={{ 
             delay: 0.675,
             duration: 0.5 
@@ -48,6 +48,16 @@ export default function Body() {
             }}
           >
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio magni id quisquam alias? Eos doloribus quis dolorum! Nemo, corporis? Quo praesentium soluta corrupti. Ab, nesciunt. Esse rem architecto eum ab.
+          </motion.p>
+          <motion.p
+            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 1000 }}
+            transition={{ 
+              delay: 0.75,
+              duration: 0.5 
+            }}
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nostrum fugit laudantium, ipsum minima recusandae quisquam nihil nisi maiores ullam porro magni quam facilis cumque cum architecto voluptatum quas placeat molestias explicabo saepe tenetur! Ipsum laborum architecto, voluptate quis porro quod. Doloribus atque consequatur neque maxime magnam nobis, suscipit debitis.
           </motion.p>
         </div>
       </section>
