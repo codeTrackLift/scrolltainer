@@ -47,7 +47,6 @@ export default function Header() {
             initial={{ opacity: 0 }}
             transition={{ 
               delay: 1,
-              duration: 0.5 
             }}
           >View Code</motion.a>
           <motion.p

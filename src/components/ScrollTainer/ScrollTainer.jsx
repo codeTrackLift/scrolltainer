@@ -8,6 +8,7 @@ const renderImages = ({height}) => {
     3 : height <= 100 ?
     2.5 : height <=200 ? 
     1.5 : 1.25 ;
+
   const images = imageArray.map((image, i) => {
     return (
       <motion.img 
@@ -16,10 +17,14 @@ const renderImages = ({height}) => {
         alt='ScrollTainer demo'
         height={height}
         initial={{ opacity: 0, x: '25vw' }}
+        transition={{
+          duration: 0.5,
+          type: 'interia',
+          velocity: 100
+        }}
         whileHover={{ scale: zoom }}
-        whileTap={{ scale: zoom }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5, type: 'interia', velocity: 100 }}
+        whileTap={{ scale: zoom }}
       />
       )
   })
