@@ -25,7 +25,7 @@ export default function Header() {
            duration: 0.5 
          }}
       >
-        <h1>Renders Images in a Horizontal Scrolling Container</h1>
+        <h1 style={{paddingTop: '5rem'}}>Renders Images in a Horizontal Scrolling Container</h1>
       </motion.div>
       <section>
         <div>
