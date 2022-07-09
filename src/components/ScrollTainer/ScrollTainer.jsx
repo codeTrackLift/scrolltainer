@@ -4,6 +4,8 @@ import imageArray from '../../context/imageArray'
 import './ScrollTainer.css';
 
 const renderImages = ({height}) => {
+  const zoom = height <= 100 ?
+    2.5 : 1.5;
   const images = imageArray.map((image, i) => {
     return (
       <motion.img 
@@ -11,7 +13,9 @@ const renderImages = ({height}) => {
         src={image}
         alt='ScrollTainer demo'
         height={height}
-        initial={{ opacity: 0, x: 50 }}
+        initial={{ opacity: 0, x: '30vw' }}
+        whileHover={{ scale: zoom }}
+        whileTap={{ scale: zoom }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5, type: 'interia', velocity: 100 }}
       />

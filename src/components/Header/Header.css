@@ -5,6 +5,7 @@
   padding-left: 0.5rem;
   position: fixed;
   width: 100vw;
+  z-index: 10;
 }
 
 header>div>h2 {

@@ -2,7 +2,7 @@
   background-color: transparent;
   margin: 1rem 0 1rem -0.5rem;
   overflow-x: scroll;
-  padding: 2rem 0;
+  padding: 3rem 0;
   width: 100vw;
   white-space: nowrap;
 
@@ -19,8 +19,14 @@
 #scrollTainer>img {
   display: inline-block;
   margin: auto;
-  padding-right: 1rem;
+  padding: 0 5vw;
   text-align: center;
   -webkit-filter: drop-shadow(2px 2px 2px black);
   filter: drop-shadow(2px 2px 2px black);
+}
+
+@media (max-width: 575px) {
+  #scrollTainer>img {
+    padding: 0 1rem;
+  }
 }
