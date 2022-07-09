@@ -1,6 +1,5 @@
 import React from 'react'
-import { AnimatePresence, motion } from 'framer-motion'
-import { useTransform, useViewportScroll } from 'framer-motion';
+import { AnimatePresence, motion, useTransform, useViewportScroll } from 'framer-motion'
 import useWindowDimensions from '../../utils/windowDimensions';
 import checkWidth from '../../utils/checkWidth';
 import './Header.css'
