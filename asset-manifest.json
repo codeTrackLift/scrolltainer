@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/scrolltainer/static/css/main.66865026.css",
+    "main.css": "/scrolltainer/static/css/main.ea613b09.css",
     "main.js": "/scrolltainer/static/js/main.54f0742d.js",
     "static/media/r8Fall.jpg": "/scrolltainer/static/media/r8Fall.ccd3593b22f1001d76b4.jpg",
     "static/media/lamboWhite.jpg": "/scrolltainer/static/media/lamboWhite.0c41cbbc43ee4da94d92.jpg",
@@ -16,11 +16,11 @@
     "static/media/mustangWhite.jpg": "/scrolltainer/static/media/mustangWhite.3fd0b3f059cf2df0c038.jpg",
     "static/media/r8Red.jpg": "/scrolltainer/static/media/r8Red.87fc86ab16b925dfbc31.jpg",
     "index.html": "/scrolltainer/index.html",
-    "main.66865026.css.map": "/scrolltainer/static/css/main.66865026.css.map",
+    "main.ea613b09.css.map": "/scrolltainer/static/css/main.ea613b09.css.map",
     "main.54f0742d.js.map": "/scrolltainer/static/js/main.54f0742d.js.map"
   },
   "entrypoints": [
-    "static/css/main.66865026.css",
+    "static/css/main.ea613b09.css",
     "static/js/main.54f0742d.js"
   ]
 }
