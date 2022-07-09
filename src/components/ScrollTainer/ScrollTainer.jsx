@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion } from 'framer-motion';
-import imageArray from '../../context/imageArray'
+import imageArray from '../../utils/imageArray'
 import './ScrollTainer.css';
 
 const renderImages = ({height}) => {

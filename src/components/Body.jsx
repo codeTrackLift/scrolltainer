@@ -1,8 +1,8 @@
 import React from 'react'
 import { AnimatePresence, motion, useTransform, useViewportScroll } from 'framer-motion'
-import lamboVert from '../../images/lamboGoldVert.jpg'
-import useWindowDimensions from '../../utils/windowDimensions';
-import checkWidth from '../../utils/checkWidth';
+import lamboVert from '../images/lamboGoldVert.jpg'
+import useWindowDimensions from '../utils/windowDimensions';
+import checkWidth from '../utils/checkWidth';
 
 const rightVariant = {
   animate:{ opacity: 1, x: 0 },
@@ -23,7 +23,6 @@ export default function Body() {
 
   scrollYProgress.onChange(y => {
     setTop(yPosAnim.current);
-    console.log(width, top);
   })
 
   return (

@@ -1,9 +1,8 @@
 import React from 'react'
 import { AnimatePresence, motion, useTransform, useViewportScroll } from 'framer-motion'
-import useWindowDimensions from '../../utils/windowDimensions';
-import checkWidth from '../../utils/checkWidth';
-import './Header.css'
-import m2Vert from '../../images/m2BlueVert.jpg'
+import useWindowDimensions from '../utils/windowDimensions';
+import checkWidth from '../utils/checkWidth';
+import m2Vert from '../images/m2BlueVert.jpg'
 
 const topVariant = {
   animate: { y: 0 },
@@ -25,11 +24,10 @@ export default function Header() {
   const { scrollYProgress } = useViewportScroll()
   const { width } = useWindowDimensions();
 
-  const yPosAnim = useTransform(scrollYProgress, [0, 0.2, 0.4], checkWidth(width))
+  const yPosAnim = useTransform(scrollYProgress, [0, 0.15, 0.3], checkWidth(width))
 
   scrollYProgress.onChange(y => {
     setTop(yPosAnim.current);
-    console.log(width, top);
   })
 
   return (
