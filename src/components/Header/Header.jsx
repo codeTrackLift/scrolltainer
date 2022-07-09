@@ -1,5 +1,8 @@
 import React from 'react'
-import { motion } from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
+import { useTransform, useViewportScroll } from 'framer-motion';
+import useWindowDimensions from '../../utils/windowDimensions';
+import checkWidth from '../../utils/checkWidth';
 import './Header.css'
 import m2Vert from '../../images/m2BlueVert.jpg'
 
@@ -14,6 +17,17 @@ const leftVariant = {
 }
 
 export default function Header() {
+  const [top, setTop] = React.useState(0);
+  const { scrollYProgress } = useViewportScroll()
+  const { width } = useWindowDimensions();
+
+  const yPosAnim = useTransform(scrollYProgress, [0, 0.25, 0.5], checkWidth(width))
+
+  scrollYProgress.onChange(y => {
+    setTop(yPosAnim.current);
+    console.log(width, top);
+  })
+
   return (
     <header>
       <motion.div
@@ -79,18 +93,23 @@ export default function Header() {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio magni id quisquam alias? Eos doloribus quis dolorum! Nemo, corporis? Quo praesentium soluta corrupti. Ab, nesciunt. Esse rem architecto eum ab.  *Photos courtsey of Unsplash.com*
           </motion.p>
         </div>
-        <motion.img 
-          src={m2Vert}
-          height={200}
-          alt='ScrollTainer Demo'
-          style={{marginLeft:'1rem'}}
-          animate={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 1000 }}
-          transition={{ 
-            delay: 0.375,
-            duration: 0.5
-          }}
-        />
+        <div className='imgWrapper' style={{height: '3rem'}}>
+          <AnimatePresence exitBeforeEnter>
+            <motion.img 
+              src={m2Vert}
+              height={200}
+              alt='ScrollTainer Demo'
+              style={{marginLeft:'1rem'}}
+              animate={{ opacity: 1, x: 0, transition:{ 
+                delay: 0.375,
+                duration: 0.5
+              }}}
+              initial={{ opacity: 0, x: 1000,}}
+              whileInView={{ marginTop: `${top}px` }}
+              viewport={{ once: true }}
+            />
+          </AnimatePresence>
+        </div>
       </section>
     </header>
   )

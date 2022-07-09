@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from './Header/Header';
 import Slider from './Slider/Slider';
 import ScrollTainer from './ScrollTainer/ScrollTainer';
@@ -6,7 +6,8 @@ import Body from './Body/Body';
 import Footer from './Footer/Footer';
 
 export default function App() {
-  const [height, setHeight] = React.useState(200)
+  const [height, setHeight] = useState(200);
+
   return (
     <>
     <Header />
