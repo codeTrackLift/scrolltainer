@@ -30,8 +30,8 @@ export default function Header() {
       <section>
         <div>
           <motion.p
-            animate={{ x: 0 }}
-            initial={{ x: '-100vw' }}
+            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -1000 }}
             transition={{ 
               delay: 0.375,
               duration: 0.5 
@@ -50,8 +50,8 @@ export default function Header() {
             }}
           >View Code</motion.a>
           <motion.p
-            animate={{ x: 0 }}
-            initial={{ x: '-100vw' }}
+            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -1000 }}
              transition={{ 
                delay: 0.625,
                duration: 0.5 
@@ -65,7 +65,7 @@ export default function Header() {
           height={200}
           alt='ScrollTainer Demo'
           style={{marginLeft:'1rem'}}
-          animate={{ x: 0 }}
+          animate={{ opacity: 1, x: 0 }}
           initial={{ x: 1000 }}
           transition={{ 
             delay: 0.375,
