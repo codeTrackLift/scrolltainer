@@ -21,7 +21,7 @@ export default function Header() {
   const { scrollYProgress } = useViewportScroll()
   const { width } = useWindowDimensions();
 
-  const yPosAnim = useTransform(scrollYProgress, [0, 0.25, 0.5], checkWidth(width))
+  const yPosAnim = useTransform(scrollYProgress, [0, 0.2, 0.4], checkWidth(width))
 
   scrollYProgress.onChange(y => {
     setTop(yPosAnim.current);
