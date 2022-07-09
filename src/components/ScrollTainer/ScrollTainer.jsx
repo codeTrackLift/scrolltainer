@@ -5,9 +5,11 @@ import './ScrollTainer.css';
 
 const renderImages = ({height}) => {
   const zoom = height < 65 ?
-    3 : height <= 100 ?
-    2.5 : height <= 200 ? 
-    1.5 : 1.25 ;
+    2.5 : height <= 100 ?
+    2 : height <= 125 ?
+    1.75 : height <= 175 ? 
+    1.5 : height <= 225 ? 
+    1.37 : 1.25;
 
   const images = imageArray.map((image, i) => {
     return (
