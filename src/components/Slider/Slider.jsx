@@ -3,11 +3,12 @@ import { motion } from 'framer-motion'
 import './Slider.css';
 
 const inputStyle = {
-  boxShadow: 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px',
-  WebkitAppearance: 'none',
   appearance: 'none',
   background: 'transparent',
+  boxShadow: 'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px',
   cursor: 'pointer',
+  margin: '1rem 0',
+  WebkitAppearance: 'none',
   width: '15rem',
 }
 
