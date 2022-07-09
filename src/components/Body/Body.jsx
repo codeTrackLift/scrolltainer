@@ -13,7 +13,7 @@ export default function Body() {
           duration: 0.5 
         }}
       >
-        <h3>ScrollTainer is Mobile Responsive</h3>
+        <h3>Animations courtesy of framer-motion</h3>
       </motion.div>
       <section>
         <motion.img
