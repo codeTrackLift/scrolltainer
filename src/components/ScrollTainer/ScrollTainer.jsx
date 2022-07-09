@@ -5,7 +5,17 @@ import './ScrollTainer.css';
 
 const renderImages = ({height}) => {
   const images = imageArray.map((image, i) => {
-    return <img src={image} alt='ScrollTainer demo' height={height} key={i} />
+    return (
+      <motion.img 
+        key={i}
+        src={image}
+        alt='ScrollTainer demo'
+        height={height}
+        initial={{ opacity: 0, x: 50 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5, type: 'interia', velocity: 100 }}
+      />
+      )
   })
   return (
     <>
@@ -40,12 +50,13 @@ export default function ScrollTainer({height}) {
   return (
     <motion.div 
       id='scrollTainer'
-      animate={{ opacity: 1 }}
-      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, x: 1000 }}
       transition={{ 
         delay: 0.675,
         duration: 0.5 
       }}
+      style={{background: 'rgb(50,50,50)'}}
     >
       {renderImages({height})}
     </motion.div>

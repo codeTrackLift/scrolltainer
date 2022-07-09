@@ -18,18 +18,18 @@ const labelStyle = {
 export default function Slider({height, setHeight}) {
   return (
     <motion.div
-      animate={{ opacity: 1 }}
-      initial={{ opacity: 0 }}
+    animate={{ x: 0 }}
+    initial={{ x: -1000 }}
       transition={{ 
-        delay: 0.5,
+        delay: 0.75,
         duration: 0.5 
       }}
     >
       <label htmlFor='height' style={labelStyle}>ScrollTainer Height: </label>
       <input
         id='opacity'
-        min='150'
-        max='400'
+        min='50'
+        max='350'
         step='10'
         type='range'
         value={height}

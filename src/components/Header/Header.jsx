@@ -8,8 +8,8 @@ export default function Header() {
     <header>
       <motion.div
         id='top'
-        animate={{ opacity: 1 }}
-        initial={{ opacity: 0 }}
+        animate={{ y: 0 }}
+        initial={{ y: -1000 }}
         transition={{ 
           delay: 0.125,
           duration: 0.5 
@@ -18,9 +18,9 @@ export default function Header() {
         <h2>ScrollTainer</h2>
       </motion.div>
       <motion.div
-         animate={{ opacity: 1 }}
-         initial={{ opacity: 0 }}
-         transition={{ 
+          animate={{ y: 0 }}
+          initial={{ y: -1000 }}
+          transition={{ 
            delay: 0.25,
            duration: 0.5 
          }}
@@ -30,8 +30,8 @@ export default function Header() {
       <section>
         <div>
           <motion.p
-            animate={{ opacity: 1 }}
-            initial={{ opacity: 0 }}
+            animate={{ x: 0 }}
+            initial={{ x: -1000 }}
             transition={{ 
               delay: 0.375,
               duration: 0.5 
@@ -46,13 +46,13 @@ export default function Header() {
             animate={{ opacity: 1 }}
             initial={{ opacity: 0 }}
             transition={{ 
-              delay: 0.5,
+              delay: 1,
               duration: 0.5 
             }}
           >View Code</motion.a>
           <motion.p
-             animate={{ opacity: 1 }}
-             initial={{ opacity: 0 }}
+            animate={{ x: 0 }}
+            initial={{ x: -1000 }}
              transition={{ 
                delay: 0.625,
                duration: 0.5 
@@ -66,13 +66,13 @@ export default function Header() {
           height={200}
           alt='ScrollTainer Demo'
           style={{marginLeft:'1rem'}}
-          animate={{ opacity: 1 }}
-          initial={{ opacity: 0 }}
+          animate={{ x: 0 }}
+          initial={{ x: 1000 }}
           transition={{ 
             delay: 0.375,
             duration: 0.5 
           }}
-        ></motion.img>
+        />
       </section>
     </header>
   )

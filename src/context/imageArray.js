@@ -22,6 +22,17 @@ const imageArray = [
   r8Fall,
   r8Red,
   r8Track,
+  cameroRed,
+  cameroYellow,
+  cobraGray,
+  lamboOrange,
+  lamboWhite,
+  m4Black,
+  mercSLR,
+  mustangWhite,
+  r8Fall,
+  r8Red,
+  r8Track,
 ]
 
 export default imageArray;

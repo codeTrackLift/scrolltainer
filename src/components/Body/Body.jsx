@@ -6,8 +6,8 @@ export default function Body() {
   return (
     <main>
       <motion.div
-        animate={{ opacity: 1 }}
-        initial={{ opacity: 0 }}
+        animate={{ x: 0 }}
+        initial={{ x: -1000 }}
         transition={{ 
           delay: 0.75,
           duration: 0.5 
@@ -21,17 +21,17 @@ export default function Body() {
           height={200}
           alt='ScrollTainer Demo'
           style={{marginRight:'1rem'}}
-          animate={{ opacity: 1 }}
-          initial={{ opacity: 0 }}
+          animate={{ x: 0 }}
+          initial={{ x: -1000 }}
           transition={{ 
             delay: 0.675,
             duration: 0.5 
           }}
-        ></motion.img>
+        />
         <div>
           <motion.p
-            animate={{ opacity: 1 }}
-            initial={{ opacity: 0 }}
+            animate={{ x: 0 }}
+            initial={{ x: 1000 }}
             transition={{ 
               delay: 0.75,
               duration: 0.5 
@@ -40,8 +40,8 @@ export default function Body() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nostrum fugit laudantium, ipsum minima recusandae quisquam nihil nisi maiores ullam porro magni quam facilis cumque cum architecto voluptatum quas placeat molestias explicabo saepe tenetur! Ipsum laborum architecto, voluptate quis porro quod. Doloribus atque consequatur neque maxime magnam nobis, suscipit debitis.
           </motion.p>
           <motion.p
-            animate={{ opacity: 1 }}
-            initial={{ opacity: 0 }}
+            animate={{ x: 0 }}
+            initial={{ x: 1000 }}
             transition={{ 
               delay: 0.875,
               duration: 0.5 
