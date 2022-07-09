@@ -7,7 +7,7 @@ export default function Body() {
     <main>
       <motion.div
         animate={{ x: 0 }}
-        initial={{ x: -1000 }}
+        initial={{ x: '-100vw' }}
         transition={{ 
           delay: 0.75,
           duration: 0.5 
@@ -22,7 +22,7 @@ export default function Body() {
           alt='ScrollTainer Demo'
           style={{marginRight:'1rem'}}
           animate={{ x: 0 }}
-          initial={{ x: -1000 }}
+          initial={{ x: '-100vw' }}
           transition={{ 
             delay: 0.675,
             duration: 0.5 
@@ -31,7 +31,7 @@ export default function Body() {
         <div>
           <motion.p
             animate={{ x: 0 }}
-            initial={{ x: 1000 }}
+            initial={{ x: '100vw' }}
             transition={{ 
               delay: 0.75,
               duration: 0.5 
@@ -41,7 +41,7 @@ export default function Body() {
           </motion.p>
           <motion.p
             animate={{ x: 0 }}
-            initial={{ x: 1000 }}
+            initial={{ x: '100vw' }}
             transition={{ 
               delay: 0.875,
               duration: 0.5 

@@ -26,6 +26,12 @@
   filter: drop-shadow(2px 2px 2px black);
 }
 
+@media (max-width: 1000px) {
+  #scrollTainer>img {
+    padding: 0 7vw;
+  }
+} 
+
 @media (max-width: 575px) {
   #scrollTainer {
     padding: 2.5rem 0;

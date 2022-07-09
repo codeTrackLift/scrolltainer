@@ -31,7 +31,7 @@ export default function Header() {
         <div>
           <motion.p
             animate={{ x: 0 }}
-            initial={{ x: -1000 }}
+            initial={{ x: '-100vw' }}
             transition={{ 
               delay: 0.375,
               duration: 0.5 
@@ -51,7 +51,7 @@ export default function Header() {
           >View Code</motion.a>
           <motion.p
             animate={{ x: 0 }}
-            initial={{ x: -1000 }}
+            initial={{ x: '-100vw' }}
              transition={{ 
                delay: 0.625,
                duration: 0.5 
