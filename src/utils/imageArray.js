@@ -33,6 +33,6 @@ const imageArray = [
   r8Fall,
   r8Red,
   r8Track,
-]
+];
 
 export default imageArray;

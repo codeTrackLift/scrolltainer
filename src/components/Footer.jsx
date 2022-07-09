@@ -20,4 +20,4 @@ export default function Footer() {
     </footer>
     </motion.div>
   )
-}
+};

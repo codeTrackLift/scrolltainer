@@ -27,17 +27,17 @@ a {
   font-family: Arial;
 }
 
-@media (max-width: 575px) {
-  a {
-    margin-left: 0;
-  }
-}
-
 a:hover {
   background-color: transparent;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   color: black !important;
   transform: scale(1.05);
+}
+
+@media (max-width: 575px) {
+  a {
+    margin-left: 0;
+  }
 }
 
 #top {

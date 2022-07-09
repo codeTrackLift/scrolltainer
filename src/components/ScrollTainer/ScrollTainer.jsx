@@ -28,19 +28,20 @@ const renderImages = ({height}) => {
         whileInView={{ opacity: 1, x: 0 }}
         whileTap={{ scale: zoom }}
       />
-      )
-  })
+    );
+  });
+
   return (
     <>
       {images}
     </>
   )
-}
+};
 
 const isElementInViewport = (e) => {
   const rect = e.getBoundingClientRect();
   return rect.right > 0;
-}
+};
 
 export default function ScrollTainer({height}) {
   useEffect(() => {
@@ -58,7 +59,7 @@ export default function ScrollTainer({height}) {
         } 
     };
     setInterval(scroll, 15);
-  }, [])
+  }, []);
 
   return (
     <motion.div 

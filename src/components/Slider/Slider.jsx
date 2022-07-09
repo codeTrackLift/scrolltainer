@@ -10,11 +10,11 @@ const inputStyle = {
   margin: '1rem 0',
   WebkitAppearance: 'none',
   width: '15rem',
-}
+};
 
 const labelStyle = {
   fontFamily: 'Arial',
-}
+};
 
 export default function Slider({height, setHeight}) {
   return (
@@ -40,4 +40,4 @@ export default function Slider({height, setHeight}) {
       </input>
     </motion.div>
   )
-}
+};

@@ -9,5 +9,5 @@ export default function checkWidth(width) {
     return [0, 75, 150];
   } else {
     return [0, 37, 75];
-  }
-}
+  };
+};
