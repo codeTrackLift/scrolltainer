@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import '../styles/Header.css';
 
 const topVariant = {
   animate: { y: 0 },

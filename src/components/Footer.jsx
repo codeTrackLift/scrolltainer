@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import '../styles/Footer.css'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();

@@ -7,7 +7,7 @@ import ContentBottom from './ContentBottom';
 import Footer from './Footer';
 import ScrollTainer from './ScrollTainer';
 import Slider from './Slider';
-import '../styles/Modal.css';
+import '../styles/App.css';
 
 const hidden = {
   opacity: 0,
@@ -16,9 +16,9 @@ const hidden = {
 
 export default function App() {
   const [height, setHeight] = useState(200);
-
   const [modalOpen, setModalOpen] = useState(false);
   const [modalImg, setModalImg] = useState('');
+  
   const close = () => setModalOpen(false);
   const open = (image) => {
     setModalImg(image);

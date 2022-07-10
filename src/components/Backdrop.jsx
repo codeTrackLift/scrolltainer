@@ -13,4 +13,4 @@ export default function Backdrop({ children, onClick }) {
       {children}
     </motion.div>
   )
-}
+};
