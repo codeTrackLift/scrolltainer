@@ -57,6 +57,10 @@ header>div>h2 {
   padding: 0.25rem;
 }
 
+img {
+  cursor: pointer;
+}
+
 section {
   display: flex;
 }

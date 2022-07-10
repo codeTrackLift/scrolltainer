@@ -54,7 +54,7 @@ export default function ContentTop({modalOpen, open, close}) {
               duration: 0.5 
             }}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nostrum fugit laudantium, ipsum minima recusandae quisquam nihil nisi maiores ullam porro magni quam facilis cumque cum architecto voluptatum quas placeat molestias explicabo saepe tenetur! Ipsum laborum architecto, voluptate quis porro quod. Doloribus atque consequatur neque maxime magnam nobis, suscipit debitis. *auto-scroll may not function as intended if zoomed out too far*
+            <b>Click on an image to see it in a modal</b>. Obcaecati nostrum fugit laudantium, ipsum minima recusandae quisquam nihil nisi maiores ullam porro magni quam facilis cumque cum architecto voluptatum quas placeat molestias explicabo saepe tenetur! Ipsum laborum architecto, voluptate quis porro quod. Doloribus atque consequatur neque maxime magnam nobis, suscipit debitis. <i>auto-scroll may not function as intended if zoomed out too far</i>
           </motion.p>
           <br/>
           <motion.a 
@@ -80,7 +80,7 @@ export default function ContentTop({modalOpen, open, close}) {
                duration: 0.5 
              }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio magni id quisquam alias? Eos doloribus quis dolorum! Nemo, corporis? Quo praesentium soluta corrupti. Ab, nesciunt. Esse rem architecto eum ab.  *Photos courtsey of Unsplash.com*
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio magni id quisquam alias? Eos doloribus quis dolorum! Nemo, corporis? Quo praesentium soluta corrupti. Ab, nesciunt. Esse rem architecto eum ab. <i>Photos courtsey of Unsplash.com</i>
           </motion.p>
         </div>
         <div className='imgWrapper' style={{height: '3rem'}}>
