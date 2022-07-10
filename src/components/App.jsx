@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import Header from './Header';
 import Body from './Body';
 import Footer from './Footer';
-import ScrollTainer from './ScrollTainer/ScrollTainer';
-import Slider from './Slider/Slider';
+import ScrollTainer from './ScrollTainer';
+import Slider from './Slider';
 
 export default function App() {
   const [height, setHeight] = useState(200);

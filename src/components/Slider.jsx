@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import './Slider.css';
+import '../styles/Slider.css';
 
 const inputStyle = {
   appearance: 'none',

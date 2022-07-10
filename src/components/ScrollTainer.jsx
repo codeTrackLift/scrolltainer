@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { motion } from 'framer-motion';
-import imageArray from '../../utils/imageArray'
-import './ScrollTainer.css';
+import imageArray from '../utils/imageArray'
+import '../styles/ScrollTainer.css';
 
 const renderImages = ({height}) => {
   const zoom = height < 65 ?
