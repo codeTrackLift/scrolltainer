@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { AnimatePresence } from 'framer-motion';
-
 import Header from './Header';
 import Modal from './Modal';
 import ContentTop from './ContentTop';
@@ -8,7 +7,6 @@ import ContentBottom from './ContentBottom';
 import Footer from './Footer';
 import ScrollTainer from './ScrollTainer';
 import Slider from './Slider';
-
 import '../styles/Modal.css';
 
 const hidden = {
