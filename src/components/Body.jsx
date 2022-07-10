@@ -14,7 +14,7 @@ const imgStyle = {
   marginRight: '1rem',
 };
 
-export default function Body() {
+export default function Body({modalOpen, open, close}) {
   const [top, setTop] = React.useState(0);
   const { scrollYProgress } = useViewportScroll();
   const { width } = useWindowDimensions();
@@ -53,6 +53,7 @@ export default function Body() {
               initial={{ opacity: 0, x: -1000 }}
               whileInView={{ marginTop: `${top}px` }}
               viewport={{ once: true }}
+              onClick={() => (modalOpen ? close() : open(lamboVert))}
             />
           </AnimatePresence>
         </div>

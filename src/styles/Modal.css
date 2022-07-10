@@ -1,0 +1,9 @@
+.backdrop {
+  align-items: center;
+  display: flex;
+  height: 95%;
+  overflow-y: scroll;
+  position: fixed;
+  top: 8%;
+  width: clamp(90%, 1200px, 1400px);
+}

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import imageArray from '../utils/imageArray'
 import '../styles/ScrollTainer.css';
 
-const renderImages = ({height}) => {
+const renderImages = ({height, modalOpen, open, close}) => {
   const zoom = height < 65 ?
     2.5 : height <= 100 ?
     2 : height <= 125 ?
@@ -26,7 +26,7 @@ const renderImages = ({height}) => {
         }}
         whileHover={{ scale: zoom }}
         whileInView={{ opacity: 1, x: 0 }}
-        whileTap={{ scale: zoom }}
+        onClick={() => (modalOpen ? close() : open(image))}
       />
     );
   });
@@ -43,7 +43,7 @@ const isElementInViewport = (e) => {
   return rect.right > 0;
 };
 
-export default function ScrollTainer({height}) {
+export default function ScrollTainer({height, modalOpen, open, close}) {
   useEffect(() => {
     const scrollTainer = document.getElementById('scrollTainer');
     const scrollTainerWidth = scrollTainer.scrollWidth;
@@ -72,7 +72,7 @@ export default function ScrollTainer({height}) {
       }}
       style={{background: 'rgb(50,50,50)'}}
     >
-      {renderImages({height})}
+      {renderImages({height, modalOpen, open, close})}
     </motion.div>
   );
 };

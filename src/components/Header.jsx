@@ -19,7 +19,7 @@ const imgStyle = {
   marginLeft: '1rem',
 };
 
-export default function Header() {
+export default function Header({modalOpen, open, close}) {
   const [top, setTop] = React.useState(0);
   const { scrollYProgress } = useViewportScroll()
   const { width } = useWindowDimensions();
@@ -70,7 +70,7 @@ export default function Header() {
           </motion.p>
           <br/>
           <motion.a 
-            href='https://github.com/codeTrackLift/scrolltainer/tree/main/src/components/ScrollTainer' 
+            href='https://github.com/codeTrackLift/scrolltainer' 
             target="_blank" 
             rel='noreferrer'
             variants={leftVariant}
@@ -109,6 +109,7 @@ export default function Header() {
               initial={{ opacity: 0, x: 1000,}}
               whileInView={{ marginTop: `${top}px` }}
               viewport={{ once: true }}
+              onClick={() => (modalOpen ? close() : open(m2Vert))}
             />
           </AnimatePresence>
         </div>
