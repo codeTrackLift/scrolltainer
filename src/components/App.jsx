@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { AnimatePresence } from 'framer-motion';
 import Header from './Header';
 import Modal from './Modal';
@@ -24,6 +24,17 @@ export default function App() {
     setModalImg(image);
     setModalOpen(true)
   };
+
+  useEffect(() => {
+    const bg = document.getElementsByTagName('html')
+
+    if(modalOpen) {
+      bg[0].style.backgroundColor = 'rgb(50,50,50)';
+      return;
+    }
+    bg[0].style.backgroundColor = 'ghostwhite';
+
+  },[modalOpen])
 
   return (
     <>

@@ -3,11 +3,11 @@ import Backdrop from './Backdrop';
 import useWindowDimensions from '../utils/windowDimensions';
 
 const dropIn = {
-  hidden: {
+  initial: {
     y: '-100vh',
     opacity: 0
   },
-  visible: {
+  animate: {
     y: '0',
     opacity: 1,
     transition: {
@@ -36,6 +36,9 @@ export default function Modal({ handleClose, modalImg }) {
       <motion.div
         className='modal'
         variants={dropIn}
+        initial='initial'
+        animate='animate'
+        exit='exit'
       >
         <img id='modalImage' src={modalImg} alt='demo' style={modalImageStyle} />
       </motion.div>

@@ -95,6 +95,7 @@ export default function ContentTop({modalOpen, open, close}) {
                 duration: 0.5
               }}}
               initial={{ opacity: 0, x: 1000,}}
+              transition={{ type: 'tween', duration: 0.125 }}
               whileInView={{ marginTop: `${top}px` }}
               viewport={{ once: true }}
               onClick={() => (modalOpen ? close() : open(m2Vert))}
