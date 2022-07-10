@@ -27,8 +27,8 @@ export default function Modal({ handleClose, modalImg }) {
   const { width } = useWindowDimensions();
 
   const modalImageStyle= {
-    width: width,
     paddingRight: '1rem',
+    width: width,
   }
 
   return (

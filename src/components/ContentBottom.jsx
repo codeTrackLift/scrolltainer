@@ -14,7 +14,7 @@ const imgStyle = {
   marginRight: '1rem',
 };
 
-export default function Body({modalOpen, open, close}) {
+export default function ContentBottom({modalOpen, open, close}) {
   const [top, setTop] = React.useState(0);
   const { scrollYProgress } = useViewportScroll();
   const { width } = useWindowDimensions();
