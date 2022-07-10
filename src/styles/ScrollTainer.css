@@ -20,7 +20,7 @@
 #scrollTainer>img {
   display: inline-block;
   margin: auto;
-  padding: 0 5vw;
+  padding: 0 3rem;
   text-align: center;
   -webkit-filter: drop-shadow(2px 2px 2px black);
   filter: drop-shadow(2px 2px 2px black);
