@@ -26,7 +26,7 @@ export default function ContentBottom({modalOpen, open, close}) {
   });
 
   return (
-    <main>
+    <div>
       <motion.div
         variants={rightVariant}
         animate='animate'
@@ -94,6 +94,6 @@ export default function ContentBottom({modalOpen, open, close}) {
           </motion.p>
         </div>
       </section>
-    </main>
+    </div>
   )
 };
