@@ -28,7 +28,7 @@ export default function Slider({height, setHeight}) {
     >
       <label htmlFor='height' style={labelStyle}>ScrollTainer Height: </label>
       <input
-        id='opacity'
+        id='height'
         min='50'
         max='350'
         step='10'

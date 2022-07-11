@@ -39,6 +39,7 @@ export default function App() {
   return (
     <>
     <Header />
+
     <AnimatePresence initial={false} exitBeforeEnter={true}>
       { modalOpen && 
         <Modal
@@ -48,6 +49,7 @@ export default function App() {
         />
       }
     </AnimatePresence>
+
     <AnimatePresence initial={true} exitBeforeEnter={true}>
       <div style={modalOpen ? hidden : {}}>
         <ContentTop modalOpen={modalOpen} open={open} close={close} />
@@ -66,6 +68,7 @@ export default function App() {
         <Footer />
       </div>
     </AnimatePresence>
+    
     </>
   )
 };
