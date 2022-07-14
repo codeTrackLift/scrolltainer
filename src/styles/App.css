@@ -49,3 +49,20 @@ section {
 section>img {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.fade {
+  color: silver;
+  animation: fade 5s ease-in-out infinite;
+}
+
+@keyframes fade{
+ 0% {
+  color: silver;
+ }
+ 50% {
+  color: transparent;
+ }
+ 100% {
+  color: silver;
+ }
+}
