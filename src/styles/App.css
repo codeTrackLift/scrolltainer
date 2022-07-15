@@ -11,7 +11,7 @@ html {
   width: 100%;
 }
 
-h1, h3 {
+h1, h3, p {
   font-family: Arial;
 }
 
@@ -51,18 +51,5 @@ section>img {
 }
 
 .fade {
-  color: silver;
-  animation: fade 5s ease-in-out infinite;
-}
-
-@keyframes fade{
- 0% {
-  color: silver;
- }
- 50% {
   color: transparent;
- }
- 100% {
-  color: silver;
- }
 }
