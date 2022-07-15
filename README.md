@@ -1,4 +1,4 @@
-# scrollTainer | UI Experiment
+# ScrollTainer | UI Experiment
 
 ## About
 This "mini-project" was developed during my [Forbes Media Internship](https://www.linkedin.com/posts/codebypete_webdevelopment-mernstackdeveloper-activity-6931971649504198656-hdBr/?utm_source=linkedin_share&utm_medium=member_desktop_web).  Built with create-react-app and framer-motion for animations.
