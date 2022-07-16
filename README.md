@@ -13,7 +13,7 @@ This was one of my submissions to the Forbes UI Showcase.  See this [blog articl
     <li>Mobile First and Responsive Design</li>
  </ol>
 
- <img src='./src/images/qr-code.png' alt='MIT xCHANGE MERN Bank QR code' width='90'> 
+ <img src='./src/images/qr-code.png' alt='QR code' width='90'> 
 
 ## MIT License
 
