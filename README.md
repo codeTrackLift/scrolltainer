@@ -1,11 +1,8 @@
 # ScrollTainer | UI Experiment
 
-## About
-This "mini-project" was developed during my [Forbes Media Internship](https://www.linkedin.com/posts/codebypete_webdevelopment-mernstackdeveloper-activity-6931971649504198656-hdBr/?utm_source=linkedin_share&utm_medium=member_desktop_web).  Built with create-react-app and framer-motion for animations.
+This "mini-project" was developed during my [Forbes Media Internship](https://www.linkedin.com/posts/codebypete_webdevelopment-mernstackdeveloper-activity-6931971649504198656-hdBr/?utm_source=linkedin_share&utm_medium=member_desktop_web).  Built with create-react-app and framer-motion for animations.  This was one of my submissions to the Forbes UI Showcase.  
 
-This was one of my submissions to the Forbes UI Showcase.  See this [blog article](https://www.codebypete.com/pages/blog.html#blog11Button) for more details about my first 3 weeks as a 43 year old software engineering intern.
-
- > Skills Utilized:
+> Skills Utilized:
  <ol>
     <li>HTML, CSS, JavaScript</li>
     <li>React 18, Framer-Motion</li>
@@ -14,6 +11,10 @@ This was one of my submissions to the Forbes UI Showcase.  See this [blog articl
  </ol>
 
  <img src='./src/images/qr-code.png' alt='QR code' width='90'> 
+
+## About
+
+See this [blog article](https://www.codebypete.com/pages/blog.html#blog11Button) for more details about my first 3 weeks as a 43 year old software engineering intern.
 
 ## MIT License
 
