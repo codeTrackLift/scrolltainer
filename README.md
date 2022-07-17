@@ -2,7 +2,7 @@
 
 This "mini-project" was developed during my [Forbes Media Internship](https://www.linkedin.com/posts/codebypete_webdevelopment-mernstackdeveloper-activity-6931971649504198656-hdBr/).  Built with create-react-app and framer-motion for animations.  This was one of my submissions to the Forbes UI Showcase.  
 
-Video: https://youtu.be/GEW0VojA6CY
+Video: https://youtu.be/gzscXr-4e14
 
 > Features:
  <ol>
