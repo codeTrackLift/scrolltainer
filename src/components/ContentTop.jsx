@@ -58,7 +58,7 @@ export default function ContentTop({modalOpen, open, close}) {
           </motion.p>
           <br/>
           <motion.a 
-            href='https://github.com/codeTrackLift/scrolltainer' 
+            href='https://github.com/codeTrackLift/scrolltainer#readme' 
             target="_blank" 
             rel='noreferrer'
             variants={leftVariant}

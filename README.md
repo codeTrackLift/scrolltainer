@@ -2,6 +2,14 @@
 
 This "mini-project" was developed during my [Forbes Media Internship](https://www.linkedin.com/posts/codebypete_webdevelopment-mernstackdeveloper-activity-6931971649504198656-hdBr/).  Built with create-react-app and framer-motion for animations.  This was one of my submissions to the Forbes UI Showcase.  
 
+> Features:
+ <ol>
+    <li>Vertical scrolling sticky elements</li>
+    <li>Horizontal auto scrolling element</li>
+    <li>Pop-up modals</li>
+    <li>Responsive Animations</li>
+ </ol>
+
 > Skills Utilized:
  <ol>
     <li>HTML, CSS, JavaScript</li>
@@ -14,7 +22,7 @@ This "mini-project" was developed during my [Forbes Media Internship](https://ww
 
 ## About
 
-See this [blog article](https://www.codebypete.com/pages/blog.html#blog11Button) for more details about my first 3 weeks as a 43 year old software engineering intern.
+Thank you for checking out my UI Experiment.  See this [blog article](https://www.codebypete.com/pages/blog.html#blog11Button) for more details about my first 3 weeks as a 43 year old software engineering intern.
 
 ## MIT License
 
