@@ -2,6 +2,8 @@
 
 This "mini-project" was developed during my [Forbes Media Internship](https://www.linkedin.com/posts/codebypete_webdevelopment-mernstackdeveloper-activity-6931971649504198656-hdBr/).  Built with create-react-app and framer-motion for animations.  This was one of my submissions to the Forbes UI Showcase.  
 
+Video: https://youtu.be/GuuC83_Bf7E
+
 > Features:
  <ol>
     <li>Vertical scrolling sticky elements</li>
