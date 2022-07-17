@@ -25,7 +25,11 @@ Video: https://youtu.be/gzscXr-4e14
 
 ## About
 
-Thank you for checking out my UI Experiment.  See this [blog article](https://www.codebypete.com/pages/blog.html#blog11Button) for more details about my first 3 weeks as a 43 year old software engineering intern.
+Thank you for checking out my UI Experiment.  
+
+- See this [blog article](https://www.codebypete.com/pages/blog.html#blog13Button) for more details about contributing to the UI Showcase.
+
+- See this [blog article](https://www.codebypete.com/pages/blog.html#blog11Button) for more details about my first 3 weeks as a 43 year old software engineering intern.
 
 ## MIT License
 
