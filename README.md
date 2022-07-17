@@ -6,6 +6,7 @@ This "mini-project" was developed during my [Forbes Media Internship](https://ww
  <ol>
     <li>Vertical scrolling sticky elements</li>
     <li>Horizontal auto scrolling element</li>
+    <li>Adjustable ScrollTainer height</li>
     <li>Pop-up modals</li>
     <li>Responsive Animations</li>
  </ol>
